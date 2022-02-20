@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/background.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/border.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/buttonstyle.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/left.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/log.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/loginpanel.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/panellog.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/sign.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/signbtnstyl.xml" value="0.2203125" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/drawable/signup.xml" value="0.2046875" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout-anydpi/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout-hdpi/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout-land/fragment_home.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout-xhdpi/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout-xxhdpi/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout-xxxhdpi/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_about.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_help.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_home.xml" value="0.2519809825673534" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_log_in.xml" value="0.22" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_payments.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_verify_code.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/layout/notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/menu/nav_menu.xml" value="0.14" />
+        <entry key="..\:/Users/Ratnesh Raj/AndroidStudioProjects/BuxPay/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+</project>

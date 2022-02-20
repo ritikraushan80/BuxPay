@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/ic_baseline_payment_24"
+            android:title="Payments" />
+        <item
+            android:id="@+id/invite"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Invite Your Friends" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_baseline_rate_review_24"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Help" />
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_baseline_backspace_24"
+            android:title="Log Out" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="About Us" />
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_baseline_settings_applications_24"
+                android:title="Settings" />
+
+
+        </menu>
+    </item>
+</menu>

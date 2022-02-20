@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SignUpFragment">
+
+    <RelativeLayout
+        android:id="@+id/rlsignup"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/sgback"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back1" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/image"
+            android:layout_width="77dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="140dp"
+            android:src="@drawable/signup" />
+
+        <TextView
+            android:id="@+id/wlc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="44dp"
+            android:text="Get Started with BuxPay !"
+            android:textColor="@color/purple_500"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/txtArea"
+        android:layout_width="242dp"
+        android:layout_height="475dp"
+        android:layout_below="@+id/rlsignup"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/sign"
+        app:layout_constraintTop_toBottomOf="@+id/rlsignup">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/signup"
+        android:layout_width="370dp"
+        android:layout_height="419dp"
+        android:layout_below="@+id/rlsignup"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/log"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rlsignup">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:startIconDrawable="@drawable/ic_baseline_person_outline_24">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="Enter Fullname"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:textStyle="italic" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emaillay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullname"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="Enter Your email"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:textStyle="italic" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullname"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:startIconDrawable="@drawable/ic_baseline_phone_iphone_24">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="Enter Mobile Number"
+                android:inputType="number"
+                android:lines="1"
+                android:textStyle="italic" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullname"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="Enter Your Password"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:textStyle="italic" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/cnfPsd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullname"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"
+            app:startIconDrawable="@drawable/ic_baseline_phonelink_lock_24">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:textStyle="italic" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sgupnbtn"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/signup"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="-7dp"
+        android:background="@drawable/signbtnstyl"
+        android:drawableEnd="@drawable/ic_baseline_arrow_right_alt_24"
+        android:text="Sign Up"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sgupnbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:text="By sigining you agree to our terms of use and privacy policy"
+        android:textColor="@color/design_default_color_primary_dark" />
+
+
+    </RelativeLayout>
